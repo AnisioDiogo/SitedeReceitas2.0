@@ -1,0 +1,41 @@
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo do slide */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Personalize as cores e fontes de acordo com a imagem */
+h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+button {
+    background-color: #ff6600; /* Laranja */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
